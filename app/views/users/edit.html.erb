@@ -42,7 +42,9 @@
 
           <div class="field">
             <%= f.label :profile_image, "プロフィール画像", class: "label" %>
-            <%= f.file_field :profile_image, class: "input" %>
+            <label class="input-wrapper" for="user_profile_image">
+                <%= f.file_field :profile_image, class: "input-file" , style:"width: 100%; max-width:100%;" %>
+            </label>
           </div>
 
           <%= f.submit "更新", class: "button is-success" %>
