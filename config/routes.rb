@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   root to: "home#index"
 
   resources :users
-  resources :recipes
+  resources :recipes do
+    resources :favorites, only: [ :create, :destroy ]
+  end
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

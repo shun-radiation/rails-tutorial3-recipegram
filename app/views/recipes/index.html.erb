@@ -24,7 +24,21 @@
             <div class="card-content">
               <div class="media mb-1 is-align-items-center">
                 <div class="media-content">
-                  <div class="title is-size-5"><%=link_to recipe.title, user_path(recipe) %></div>
+                  <div class="title is-size-5"><%=link_to recipe.title, recipe_path(recipe) %></div>
+                </div>
+                <div class="content">
+                  <% if current_user.already_favorited?(recipe) %>
+                    <% favorite = current_user.favorites.find_by(recipe_id: recipe.id) %>
+                    <%= link_to recipe_favorite_path(recipe, favorite), method: :delete, class:"p-2" do %>
+                      <i class="fa-solid fa-heart"></i>
+                      <%= recipe.favorites.count %>
+                    <% end %>
+                  <% else %>
+                    <%= link_to recipe_favorites_path(recipe), method: :post, class:"p-2" do %>
+                      <i class="fa-regular fa-heart"></i>
+                      <%= recipe.favorites.count %>
+                    <% end %>
+                  <% end %>
                 </div>
               </div>
               <div class="content mb-3">
