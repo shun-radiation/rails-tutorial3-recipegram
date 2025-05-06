@@ -15,3 +15,11 @@ YouTube
 ③ https://youtu.be/jtxggzdeDfU?si=wQoniwfjo-t2vPVg
 
 ④ https://youtu.be/2VbIAYWdLLk?si=RdOiMjEuxPdukFXD
+
+【Ruby on Rails】いいね機能を作ってみよう
+
+① https://youtu.be/7XooLWaDYrw?si=PGtd4jczwLg6fUE4
+
+② https://youtu.be/bFrU_AdpBxQ?si=5asvNHFzrdw_g1-w
+
+③ https://youtu.be/b0hxQo35eps?si=wiLkh37nCXOmThMF
