@@ -29,3 +29,10 @@
   border-radius: 4px;
   color: #363636;
 }
+
+.main-image {
+  height: 940px;
+  background-image: url(meal.png);
+  background-repeat: none;
+  background-size: contain;
+}

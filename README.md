@@ -1,24 +1,10 @@
-# README
+使用言語：Ruby
+使用フレームワーク：Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+YouTube
+投稿者：FarStep【プログラミング講座】
+【プログラミング入門】Ruby on Rails でウェブアプリを作ってみよう
+① https://youtu.be/auLih2TFwio?si=QxqfKyNrjaqqeSMi
+② https://youtu.be/uos2mowBrJA?si=8ftIg9lBBzGg4KRQ
+③ https://youtu.be/jtxggzdeDfU?si=wQoniwfjo-t2vPVg
+④ https://youtu.be/2VbIAYWdLLk?si=RdOiMjEuxPdukFXD
