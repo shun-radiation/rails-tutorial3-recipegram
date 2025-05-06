@@ -4,3 +4,7 @@ import 'controllers';
 
 import Rails from '@rails/ujs';
 Rails.start();
+
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets

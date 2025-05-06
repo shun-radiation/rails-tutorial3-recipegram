@@ -11,8 +11,8 @@
 
 .recipes_profile_image {
   border-radius: 50% !important;
-  height: 50px !important ;
-  width: 50px !important ;
+  height: 30px !important ;
+  width: 30px !important ;
   object-fit: cover !important ;
 }
 
